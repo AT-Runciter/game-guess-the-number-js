@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff00;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: .5rem;
+}
+
+h1 {
+    letter-spacing: .2rem;
+}
+
+#output {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#output .user {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+#prompt {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#prompt input {
+    display: block;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #0F0;
+    padding: 1rem .5rem;
+    font-size: inherit;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+
+#prompt::before {
+    content: '> ';
+}
